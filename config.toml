@@ -1,0 +1,23 @@
+baseURL = 'https://nikolai.kim/'
+languageCode = 'en-us'
+title = 'Nikolai Kim'
+theme = 'paper'
+copyright = 'CC0-1.0'
+
+[menu]
+[[menu.main]]
+  identifier = 'posts'
+  name = 'Posts'
+  url = '/posts'
+  weight = 10
+[[menu.main]]
+  identifier = 'license'
+  name = 'License'
+  url = '/pages/license'
+  weight = 20
+
+[permalinks]
+  'posts' = '/posts/:slug'
+
+[params]
+  github = 'object-required'
