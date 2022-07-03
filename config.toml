@@ -11,6 +11,11 @@ copyright = 'CC0-1.0'
   url = '/posts'
   weight = 10
 [[menu.main]]
+  identifier = 'projects'
+  name = 'Projects'
+  url = '/pages/projects'
+  weight = 15
+[[menu.main]]
   identifier = 'license'
   name = 'License'
   url = '/pages/license'
