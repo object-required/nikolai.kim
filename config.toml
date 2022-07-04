@@ -20,6 +20,11 @@ copyright = 'CC0-1.0'
   name = 'License'
   url = '/pages/license'
   weight = 20
+[[menu.main]]
+  identifier = 'keys'
+  name = 'Public Key'
+  url = '/pages/keys'
+  weight = 30
 
 [permalinks]
   'posts' = '/posts/:slug'
