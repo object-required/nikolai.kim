@@ -25,6 +25,11 @@ copyright = 'CC0-1.0'
   name = 'Public Key'
   url = '/pages/keys'
   weight = 30
+[[menu.main]]
+  identifier = 'ru'
+  name = 'По-русски'
+  url = 'https://nikolai.pp.ru/'
+  weight = 40
 
 [permalinks]
   'posts' = '/posts/:slug'
